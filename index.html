@@ -13,71 +13,26 @@
     <h3>Take our short quiz and find out!</h3>
     <p>This short quiz uses critical personality information to tell you what programming language will best suit you.</p>
     <form id="formOne">
-      <div class="radio">
-        <p>Are you a morning person?</p>
-        <label>
-          <input type="radio" name="question1" value="yes">
-          Yes! It's 5:30am and I already ran!
-        </label>
-      </div>
-      <div class="radio">
-        <label>
-          <input type="radio" name="question1" value="no">
-          If you make the coffee I can be awake by 11am
-        </label>
-      </div>
-      <div class="radio">
-        <p>How do you feel about apples?</p>
-        <label>
-          <input type="radio" name="question2" value="yes">
-          Love them! Lets go apple picking
-        </label>
-      </div>
-      <div class="radio">
-        <label>
-          <input type="radio" name="question2" value="no">
-          Can't stand them, oranges only for me. 
-        </label>
-      </div>
-      <div class="radio">
-        <p>What are your thoughts on Harry Potter?</p>
-        <label>
-          <input type="radio" name="question3" value="yes">
-          I have read the series 7 times now.
-        </label>
-      </div>
-      <div class="radio">
-        <label>
-          <input type="radio" name="question3" value="no">
-          Isn't it for kids?
-        </label>
-      </div>
-      <div class="radio">
-        <p>Cats or dogs</p>
-        <label>
-          <input type="radio" name="question4" value="yes">
-          Cats duh!
-        </label>
-      </div>
-      <div class="radio">
-        <label>
-          <input type="radio" name="question4" value="no">
-          Dogs obviously 
-        </label>
-      </div>
-      <div class="radio">
-        <p>Do you like coffee?</p>
-        <label>
-          <input type="radio" name="question5" value="yes">
-          Love it. 
-        </label>
-      </div>
-      <div class="radio">
-        <label>
-          <input type="radio" name="question5" value="no">
-          Caffiene gives me the jitters
-        </label>
-      </div>
+      <select class="form-control" id="morning">
+        <option value="1">It's 5:30 am and I already ran!</option>
+        <option value="2">I can get up by 11am if you make the coffee</option>
+      </select>
+      <select class="form-control" id="apples">
+        <option value="1">Love them, lets go apple picking.</option>
+        <option value="2">No thanks, oranges for me.</option>
+      </select>
+      <select class="form-control" id="potter">
+        <option value="1">I'm on my seventh re read. </option>
+        <option value="2">I thought it was for kids?</option>
+      </select>
+      <select class="form-control" id="animal">
+        <option value="1">Cats, duh!</option>
+        <option value="2">Dogs, obviously!</option>
+      </select>
+      <select class="form-control" id="coffee">
+        <option value="1">I'll take another cup</option>
+        <option value="2">No thanks, I'll stick with water</option>
+      </select>
 
       <button type="submit" class="btn">Submit!</button>
     </form>
