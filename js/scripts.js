@@ -8,11 +8,11 @@ $(document).ready(function() {
     const questFive = parseInt($("#coffee").val());
     const results = $(".results");
 
-    if (questOne === "1"){
+    if (questOne === "1" && questTwo === "1" || "2" && questThree === "1" || "2" && questFour === "1" || "2" && questFive === "1" || "2"){
       $(".results").children().hide();
       $("#Java").show();
-    } else if (questTwo === "1"){
-      $(".reults").children().hide();
+    } else if (questTwo === "1" && questThree === "1" || "2" && questFour === "1" || "2" && questFive === "1" || "2"){
+      $(".results").children().hide();
       $("Swift").show();
     } else if (questFive === "1"){
       $(".results").children().hide();
