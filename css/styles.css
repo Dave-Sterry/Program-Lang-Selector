@@ -18,6 +18,7 @@ body {
   border: 2px black;
   font-family: 'Seqoe UI';
   margin:10px;
+  font-size: larger;
 }
 
 .btn {
@@ -36,4 +37,12 @@ body {
   margin:10px;
   text-align: center;
   font-size: large;
+}
+
+.card img {
+  width: 150px;
+  height: auto;
+  float:left;
+  margin: 15px;
+
 }
