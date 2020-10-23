@@ -10,6 +10,7 @@ body {
 .jumbotron {
   font-weight: bold;
   font-family: 'Segoe UI';
+  background-color: grey;
 }
 
 .card {
@@ -25,9 +26,14 @@ body {
   padding:10px;
   font-weight:bold;
   text-align:center;
+  margin:10px;
+}
+.btn:hover {
+  background-color: hotpink;
 }
 
 .row {
   margin:10px;
   text-align: center;
+  font-size: large;
 }
