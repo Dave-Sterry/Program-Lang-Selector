@@ -16,7 +16,8 @@ $(document).ready(function() {
       $(".results").children().hide();
       $("#Ruby").show();
     } else {
-      results.text("Hmmm you're a tricky one, maybe you'd be happier doing something else?")
+      $(".results").children().hide();
+      $("#other").show();
     }
  
   })
