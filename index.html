@@ -9,40 +9,66 @@
 </head>
 <body>
   <div class="container">
+    <div class ="jumbotron">
     <h1>Which Programming Language is Right for you?</h1>
     <h3>Take our short quiz and find out!</h3>
     <p>This short quiz uses critical personality information to tell you what programming language will best suit you.</p>
+  </div>
     <form id="formOne">
-      <label for="morning">Are you a morning person?</label>
-      <select class="form-control" id="morning">
-        <option selected disabled hidden style='display: none'></option>
-        <option value="1">It's 5:30 am and I already ran!</option>
-        <option value="2">I can get up by 11am if you make the coffee</option>
-      </select>
-      <label for="morning">Do you like apples?</label>
-      <select class="form-control" id="apples">
-        <option selected disabled hidden style='display: none'></option>
-        <option value="1">Love them, lets go apple picking.</option>
-        <option value="2">No thanks, oranges for me.</option>
-      </select>
-      <label for="morning">How do you feel about Harry Potter?</label>
-      <select class="form-control" id="potter">
-        <option selected disabled hidden style='display: none'></option>
-        <option value="1">I'm on my seventh re read. </option>
-        <option value="2">I thought it was for kids?</option>
-      </select>
-      <label for="morning">Cats or Dogs?</label>
-      <select class="form-control" id="animal">
-        <option selected disabled hidden style='display: none'></option>
-        <option value="1">Cats, duh!</option>
-        <option value="2">Dogs, obviously!</option>
-      </select>
-      <label for="morning">Coffee?</label>
-      <select class="form-control" id="coffee">
-        <option selected disabled hidden style='display: none'></option>
-        <option value="1">I'll take another cup</option>
-        <option value="2">No thanks, I'll stick with water</option>
-      </select>
+      <div class="row">
+        <div class="col-6">
+          <label for="morning">Are you a morning person?</label>
+          <select class="form-control" id="morning">
+            <option selected disabled hidden style='display: none'></option>
+            <option value="1">It's 5:30 am and I already ran!</option>
+            <option value="2">I can get up by 11am if you make the coffee</option>
+          </select>
+        </div>
+        <div class="col-6">
+          <label for="apples">Do you like apples?</label>
+          <select class="form-control" id="apples">
+            <option selected disabled hidden style='display: none'></option>
+            <option value="1">Love them, lets go apple picking.</option>
+            <option value="2">No thanks, oranges for me.</option>
+          </select>
+        </div> 
+      </div>
+      <div class="row">
+        <div class="col-6">
+        <label for="potter">How do you feel about Harry Potter?</label>
+          <select class="form-control" id="potter">
+            <option selected disabled hidden style='display: none'></option>
+            <option value="1">I'm on my seventh re read. </option>
+            <option value="2">I thought it was for kids?</option>
+          </select>
+        </div>
+        <div class="col-6">
+          <label for="animal">Cats or Dogs?</label>
+          <select class="form-control" id="animal">
+            <option selected disabled hidden style='display: none'></option>
+            <option value="1">Cats, duh!</option>
+            <option value="2">Dogs, obviously!</option>
+          </select>
+        </div>    
+      </div>  
+      <div class="row"> 
+        <div class="col-6">
+          <label for="coffee">Coffee?</label>
+          <select class="form-control" id="coffee">
+            <option selected disabled hidden style='display: none'></option>
+            <option value="1">I'll take another cup</option>
+            <option value="2">No thanks, I'll stick with water</option>
+          </select>
+        </div>  
+        <div class="col-6">
+          <label for="peanut">Crunchy or Smooth Peanut butter?</label>
+          <select class="form-control" id="peanut">
+            <option selected disabled hidden style='display: none'></option>
+            <option value="1">Smmooth and creamy please</option>
+            <option value="2">Extra Crunchy!</option>
+          </select>
+        </div>  
+      </div>     
 
       <button type="submit" class="btn">Submit!</button>
     </form>

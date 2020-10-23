@@ -1,11 +1,11 @@
 # TITLE 
 <img src="https://github.com/Dave-Sterry.png" width="200px" height="auto">
 
-### A website by David Sterry updated on -----
+### A website by David Sterry updated on Oct 23rd 2020
 
 ## Description
 
-_Insert Descrption_
+_This website contains a short quiz and delivers results using forms and branching in Jquery and Javascript. This was a friday independent project for Epicodus_
 
 The site can be viewed [here](insert gh pages link)
 
@@ -31,6 +31,8 @@ _Please contact me at sterry.david@gmail.com in regards to this website_
 * Git
 * Bootstrap
 * Visual Studios Code
+* Jquery
+* Javascript
 
 # License
 

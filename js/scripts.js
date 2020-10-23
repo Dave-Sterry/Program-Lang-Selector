@@ -19,6 +19,5 @@ $(document).ready(function() {
       $(".results").children().hide();
       $("#other").show();
     }
- 
   })
 })
