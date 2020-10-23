@@ -1,14 +1,33 @@
-#Java {
-  display: none;
-}
-#Swift {
+#Java, #Swift, #Ruby, #other {
   display: none;
 }
 
-#Ruby {
-  display: none;
+body {
+  background-color: aquamarine;
+  font-family: 'Segoe UI';
 }
 
-#other {
-  display: none;
+.jumbotron {
+  font-weight: bold;
+  font-family: 'Segoe UI';
+}
+
+.card {
+  background-color: grey;
+  border: 2px black;
+  font-family: 'Seqoe UI';
+  margin:10px;
+}
+
+.btn {
+  background-color: grey;
+  color: black;
+  padding:10px;
+  font-weight:bold;
+  text-align:center;
+}
+
+.row {
+  margin:10px;
+  text-align: center;
 }
