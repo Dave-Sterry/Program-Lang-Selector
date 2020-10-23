@@ -7,11 +7,11 @@
 
 _This website contains a short quiz and delivers results using forms and branching in Jquery and Javascript. This was a friday independent project for Epicodus_
 
-The site can be viewed [here](insert gh pages link)
+The site can be viewed [here](https://dave-sterry.github.io/Program-Lang-Selector/)
 
 ## Setup Instructions
 1. User will need to have an up to date browser installed such as Chrome of Firefox.
-2. Using the browser navigate to the [gh-pages](gh pages link) for this project
+2. Using the browser navigate to the [gh-pages](https://dave-sterry.github.io/Program-Lang-Selector/) for this project
 2. Alternatively use the browser navigate to my GitHub page [respository](https://github.com/Dave-Sterry/Program-Lang-Selector)
 3. Click the Green **Code** button and select **Download Zip**
 4. Unzip the downloaded folder
