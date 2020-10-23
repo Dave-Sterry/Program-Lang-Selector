@@ -13,23 +13,33 @@
     <h3>Take our short quiz and find out!</h3>
     <p>This short quiz uses critical personality information to tell you what programming language will best suit you.</p>
     <form id="formOne">
+      <label for="morning">Are you a morning person?</label>
       <select class="form-control" id="morning">
+        <option selected disabled hidden style='display: none' value=''></option>
         <option value="1">It's 5:30 am and I already ran!</option>
         <option value="2">I can get up by 11am if you make the coffee</option>
       </select>
+      <label for="morning">Do you like apples?</label>
       <select class="form-control" id="apples">
+        <option selected disabled hidden style='display: none' value=''></option>
         <option value="1">Love them, lets go apple picking.</option>
         <option value="2">No thanks, oranges for me.</option>
       </select>
+      <label for="morning">How do you feel about Harry Potter?</label>
       <select class="form-control" id="potter">
+        <option selected disabled hidden style='display: none' value=''></option>
         <option value="1">I'm on my seventh re read. </option>
         <option value="2">I thought it was for kids?</option>
       </select>
+      <label for="morning">Cats or Dogs?</label>
       <select class="form-control" id="animal">
+        <option selected disabled hidden style='display: none' value=''></option>
         <option value="1">Cats, duh!</option>
         <option value="2">Dogs, obviously!</option>
       </select>
+      <label for="morning">Coffee?</label>
       <select class="form-control" id="coffee">
+        <option selected disabled hidden style='display: none' value=''></option>
         <option value="1">I'll take another cup</option>
         <option value="2">No thanks, I'll stick with water</option>
       </select>
@@ -37,7 +47,9 @@
       <button type="submit" class="btn">Submit!</button>
     </form>
     <div class="results">
-     
+      <div id="Java"> You should learn Javascript</div>
+      <div id="Swift"> You should learn Swift</div>
+      <div id="Ruby"> You should learn Ruby</div>
     </div>
   </div>
 </body>
