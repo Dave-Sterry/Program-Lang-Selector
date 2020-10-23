@@ -8,16 +8,16 @@ $(document).ready(function() {
 
     if (questOne == "1" && questTwo == "2" && questFive == "2"){
       $(".results").children().hide();
-      $("#Java").show();
+      $("#Java").slideDown();
     } else if (questTwo == "1" && questOne == "2" && questFive == "2"){
       $(".results").children().hide();
-      $("#Swift").show();
+      $("#Swift").slideDown();
     } else if (questFive == "1" && questOne == "2" && questTwo == "2"){
       $(".results").children().hide();
-      $("#Ruby").show();
+      $("#Ruby").slideDown();
     } else {
       $(".results").children().hide();
-      $("#other").show();
+      $("#other").slideDown();
     }
   })
 })
