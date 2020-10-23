@@ -44,5 +44,9 @@ body {
   height: auto;
   float:left;
   margin: 15px;
+}
 
+label {
+  font-family:"Segoe UI";
+  font-size: larger;
 }

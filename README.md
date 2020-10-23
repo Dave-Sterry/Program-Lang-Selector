@@ -1,4 +1,4 @@
-# TITLE 
+# Program Language Quiz 
 <img src="https://github.com/Dave-Sterry.png" width="200px" height="auto">
 
 ### A website by David Sterry updated on Oct 23rd 2020
@@ -10,9 +10,9 @@ _This website contains a short quiz and delivers results using forms and branchi
 The site can be viewed [here](insert gh pages link)
 
 ## Setup Instructions
-1. User will need to have an up to date browser installed such as Chrome of Firefox
+1. User will need to have an up to date browser installed such as Chrome of Firefox.
 2. Using the browser navigate to the [gh-pages](gh pages link) for this project
-2. Alternatively use the browser navigate to my GitHub page [respository](portfolio link for this site
+2. Alternatively use the browser navigate to my GitHub page [respository](https://github.com/Dave-Sterry/Program-Lang-Selector)
 3. Click the Green **Code** button and select **Download Zip**
 4. Unzip the downloaded folder
 5. Open the _index.html_ file to view the site locally
@@ -31,7 +31,7 @@ _Please contact me at sterry.david@gmail.com in regards to this website_
 * Git
 * Bootstrap
 * Visual Studios Code
-* Jquery
+* jQuery
 * Javascript
 
 # License
